@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4faf7;
+  background: #f4faf7; /*#f4faf7*/
 }
 
 .navbar {
@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #000;
+  background-color: #000000;
   position: sticky;
   top: 0;
   z-index: 999;
