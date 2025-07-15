@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Título do Post</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8fbf9;
+            margin: 0;
+            padding: 0;
+            color: #2e4a27;
+        }
+
+        .post-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .capa {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 4px solid #4caf50;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #1c371c;
+        }
+
+        .data-post {
+            font-size: 0.95rem;
+            color: #5e755e;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-voltar {
+            display: inline-block;
+            margin-top: 3rem;
+            text-decoration: none;
+            padding: 0.8rem 1.6rem;
+            border-radius: 30px;
+            background-color: #4caf50;
+            color: white;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-voltar:hover {
+            background-color: #3b8e3b;
+        }
+
+        img.conteudo {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 🖼️ Imagem de capa -->
+    <img src="/img/foto-1.jpg" alt="Imagem de capa do post" class="capa" />
+
+    <main class="post-container">
+        <h1>Título do Post de Exemplo</h1>
+        <div class="data-post">Publicado em 14 de Julho de 2025</div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra feugiat tincidunt. Sed in massa
+            commodo, bibendum orci sed, porttitor lorem.</p>
+
+        <p>Morbi quis felis ut eros volutpat blandit. Integer eget vehicula ligula. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae.</p>
+
+        <img src="img/foto-meio.jpg" alt="Imagem ilustrativa no meio do conteúdo" class="conteudo" />
+
+        <p>Proin sed turpis eu augue sollicitudin luctus. Quisque porta sapien at ligula placerat, nec interdum risus
+            fermentum.</p>
+
+        <!-- 🔙 Botão voltar -->
+        <a href="/index.html" class="btn-voltar">← Voltar para a Página Principal</a>
+    </main>
+
+</body>
+
+</html>

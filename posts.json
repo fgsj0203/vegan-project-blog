@@ -1,0 +1,30 @@
+[
+  {
+    "titulo": "5 Inovações em Tecnologia Sustentável",
+    "descricao": "Conheça soluções tecnológicas que ajudam o meio ambiente.",
+    "imagem": "img/foto-1.jpg",
+    "link": "posts/post-1.html",
+    "categoria": "tecnologia"
+  },
+  {
+    "titulo": "Corrida de Rua para Iniciantes",
+    "descricao": "Dicas essenciais para começar com segurança e prazer.",
+    "imagem": "img/corrida.jpg",
+    "link": "posts/corrida1.html",
+    "categoria": "corrida"
+  },
+  {
+    "titulo": "Alimentação Vegana Simples e Acessível",
+    "descricao": "Veja como começar uma dieta vegana com baixo custo.",
+    "imagem": "img/veganismo.jpg",
+    "link": "posts/veganismo1.html",
+    "categoria": "veganismo"
+  },
+  {
+    "titulo": "teste categoria ciência",
+    "descricao": "Conheça soluções tecnológicas que ajudam o meio ambiente.",
+    "imagem": "img/foto-1.jpg",
+    "link": "posts/post-1.html",
+    "categoria": "ciencia"
+  }
+]

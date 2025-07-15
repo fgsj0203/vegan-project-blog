@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog VerdeTech</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="/img/img-teste-logo.png" alt="Logo do Blog" class="logo-img" />
+      </a>
+    </div>
+    <div class="nav-buttons">
+      <a href="sobre.html" class="btn-navbar btn-sobre">Sobre Mim</a>
+      <a href="doe.html" class="btn-navbar btn-doar">Doe ☕</a>
+    </div>
+  </nav>
+
+  <section class="filtros">
+    <button class="filtro-btn ativo" data-categoria="todos">Todos</button>
+    <button class="filtro-btn" data-categoria="tecnologia">Tecnologia</button>
+    <button class="filtro-btn" data-categoria="corrida">Corrida de Rua</button>
+    <button class="filtro-btn" data-categoria="veganismo">Veganismo</button>
+    <button class="filtro-btn" data-categoria="ciencia">Ciência</button>
+    <button class="filtro-btn" data-categoria="gastronomia">Gastronomia</button>
+  </section>
+
+  <div id="posts-container" class="posts-grid"></div>
+
+  <script src="posts.js"></script>
+</body>
+
+</html>
